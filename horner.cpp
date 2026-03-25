@@ -1,4 +1,4 @@
-#include <iostream>
+N#include <iostream>
 using namespace std;
 
 int horner(int *wsp, int x, int y){
@@ -23,6 +23,6 @@ int main(){
 	}
 	cout << "podaj argument: ";
 	cin >> y;
-	cout << "wynik: " << horner(wspol, x, y);
+	cout << "w( " << y << " ) = " << horner(wspol, x, y);
 	delete[] wspol;
 }
