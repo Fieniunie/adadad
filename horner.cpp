@@ -1,4 +1,4 @@
-N#include <iostream>
+#include <iostream>
 using namespace std;
 
 int horner(int *wsp, int x, int y){
@@ -17,7 +17,7 @@ int main(){
 	int *wspol = new int[x+1];
 	int i=0;
 	while(i<=x){
-		cout << "poadaj wpolczynnik: ";
+		cout << "podaj wspolczynnik: ";
 		cin >> wspol[i];
 		i++;
 	}
